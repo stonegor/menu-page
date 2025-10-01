@@ -2,8 +2,8 @@
 const nextConfig = {
   output: 'export',
   trailingSlash: true,
-  basePath: process.env.NODE_ENV === 'production' ? '/menu-page-prototype' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/menu-page-prototype' : '',
+  basePath: process.env.NODE_ENV === 'production' ? '/menu-page' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/menu-page' : '',
   eslint: {
     ignoreDuringBuilds: true,
   },
