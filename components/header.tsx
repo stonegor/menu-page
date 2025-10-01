@@ -11,12 +11,12 @@ const sections = [
   { id: "author-coffee", label: "Авторские кофейные напитки" },
   { id: "author-lemonades", label: "Авторские лимонады" },
   { id: "pancakes", label: "Блины" },
-  { id: "croissants", label: "Круассаны" },
   { id: "sandwiches", label: "Сэндвичи" },
   { id: "breakfasts", label: "Завтраки" },
-  { id: "pizza", label: "Пицца" },
-  { id: "dumplings", label: "Пельмени и вареники" },
-  { id: "main-dishes", label: "Вторые блюда" },
+  { id: "lunches", label: "Обеды" },
+  { id: "salads", label: "Салаты" },
+  { id: "dinner", label: "Ужин" },
+  { id: "desserts", label: "Десерты" },
 ]
 
 export function Header() {
