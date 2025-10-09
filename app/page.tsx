@@ -205,6 +205,7 @@ export default function MenuPage() {
                             price={item.price}
                             description={item.description}
                             composition={item.composition}
+                            nutrition={item.nutrition}
                           />
                         ))}
                       </div>
@@ -249,6 +250,7 @@ export default function MenuPage() {
                             price={item.price}
                             description={item.description}
                             composition={item.composition}
+                            nutrition={item.nutrition}
                           />
                         ))}
                       </div>
@@ -292,6 +294,7 @@ export default function MenuPage() {
                             price={item.price}
                             description={item.description}
                             composition={item.composition}
+                            nutrition={item.nutrition}
                           />
                         ))}
                       </div>
@@ -335,6 +338,7 @@ export default function MenuPage() {
                             price={item.price}
                             description={item.description}
                             composition={item.composition}
+                            nutrition={item.nutrition}
                           />
                         ))}
                       </div>
@@ -378,6 +382,7 @@ export default function MenuPage() {
                             price={item.price}
                             description={item.description}
                             composition={item.composition}
+                            nutrition={item.nutrition}
                           />
                         ))}
                       </div>
@@ -421,6 +426,7 @@ export default function MenuPage() {
                             price={item.price}
                             description={item.description}
                             composition={item.composition}
+                            nutrition={item.nutrition}
                           />
                         ))}
                       </div>
@@ -464,6 +470,7 @@ export default function MenuPage() {
                             price={item.price}
                             description={item.description}
                             composition={item.composition}
+                            nutrition={item.nutrition}
                           />
                         ))}
                       </div>

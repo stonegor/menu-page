@@ -13,9 +13,24 @@ interface ItemCardProps {
   price: string
   description?: string
   composition?: string
+  nutrition?: {
+    calories: string
+    protein: string
+    fat: string
+    carbs: string
+  }
 }
 
-export function ItemCard({ imageSrc, imageAlt, title, weight, price, description, composition }: ItemCardProps) {
+export function ItemCard({
+  imageSrc,
+  imageAlt,
+  title,
+  weight,
+  price,
+  description,
+  composition,
+  nutrition,
+}: ItemCardProps) {
   const [isPopupOpen, setIsPopupOpen] = useState(false)
 
   return (
@@ -49,6 +64,7 @@ export function ItemCard({ imageSrc, imageAlt, title, weight, price, description
         price={price}
         description={description}
         composition={composition}
+        nutrition={nutrition}
       />
     </>
   )

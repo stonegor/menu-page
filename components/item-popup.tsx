@@ -13,6 +13,12 @@ interface ItemPopupProps {
   price: string
   description?: string
   composition?: string
+  nutrition?: {
+    calories: string
+    protein: string
+    fat: string
+    carbs: string
+  }
 }
 
 export function ItemPopup({
@@ -25,6 +31,7 @@ export function ItemPopup({
   price,
   description,
   composition,
+  nutrition,
 }: ItemPopupProps) {
 
 
@@ -59,6 +66,17 @@ export function ItemPopup({
               <h4 className="text-xs md:text-sm font-semibold text-[#8B4513] mb-1 md:mb-2 uppercase">Описание</h4>
               <p className="text-xs md:text-sm text-[#8B4513] leading-relaxed">{description}</p>
             </div>
+            {nutrition && (
+              <div className="border-t border-[#8B4513]/20 pt-2 md:pt-4">
+                <h4 className="text-xs md:text-sm font-semibold text-[#8B4513] mb-1 md:mb-2 uppercase">Пищевая ценность на 100 г</h4>
+                <div className="grid grid-cols-2 gap-x-4 gap-y-1 text-xs md:text-sm text-[#8B4513]">
+                  <span>Калорийность:</span><span className="text-right">{nutrition.calories} ккал</span>
+                  <span>Белки:</span><span className="text-right">{nutrition.protein} г</span>
+                  <span>Жиры:</span><span className="text-right">{nutrition.fat} г</span>
+                  <span>Углеводы:</span><span className="text-right">{nutrition.carbs} г</span>
+                </div>
+              </div>
+            )}
             {composition && (
               <div className="border-t border-[#8B4513]/20 pt-2 md:pt-4">
                 <h4 className="text-xs md:text-sm font-semibold text-[#8B4513] mb-1 md:mb-2 uppercase">Состав</h4>
