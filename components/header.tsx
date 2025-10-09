@@ -160,7 +160,7 @@ export function Header() {
                 alt="VkusVill Logo"
                 width={46.5}
                 height={46.5}
-                className=" mx-0 ml-[-10px]"
+                className=" mx-0 ml-[-10px] mix-blend-multiply"
               />
               <h1 className="text-xl font-title text-[#8B4513] mb-px">КафЕ</h1>
             </div>
