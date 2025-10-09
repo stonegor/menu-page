@@ -46,8 +46,15 @@ export function ItemPopup({
 
         <div className="space-y-3 md:space-y-4">
           {imageSrc && (
-            <div className="relative aspect-video bg-black rounded-lg overflow-hidden">
-              <Image src={`https://photo.vkusvill.ru/media/documents_preview_big/${imageSrc}`} alt={imageAlt} layout="fill" objectFit="cover" />
+            <div className="rounded-lg overflow-hidden">
+              <Image
+                src={`https://photo.vkusvill.ru/media/documents_preview_big/${imageSrc}`}
+                alt={imageAlt}
+                width={0}
+                height={0}
+                sizes="100vw"
+                className="h-auto w-full"
+              />
             </div>
           )}
 

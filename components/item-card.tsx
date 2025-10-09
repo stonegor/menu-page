@@ -43,8 +43,8 @@ export function ItemCard({
           <Image
             src={`https://photo.vkusvill.ru/media/documents_preview_small/${imageSrc}` || "/placeholder.svg"}
             alt={imageAlt}
-            width={180}
-            height={120}
+            width={270}
+            height={180}
             className="mx-auto rounded-lg"
           />
         </div>

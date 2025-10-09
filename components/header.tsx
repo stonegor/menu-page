@@ -160,7 +160,7 @@ export function Header() {
                 alt="VkusVill Logo"
                 width={46.5}
                 height={46.5}
-                className="mix-blend-multiply mx-0 ml-[-10px]"
+                className=" mx-0 ml-[-10px]"
               />
               <h1 className="text-xl font-title text-[#8B4513] mb-px">КафЕ</h1>
             </div>
@@ -197,8 +197,8 @@ export function Header() {
                     data-section={section.id}
                     onClick={() => scrollToSection(section.id)}
                     className={`px-3 py-1.5 rounded-full text-xs font-medium whitespace-nowrap transition-colors flex-shrink-0 ${activeSection === section.id
-                        ? "bg-[#8B4513] text-white"
-                        : "bg-[#e8dcc0] text-[#8B4513] hover:bg-[#d4c5a0]"
+                      ? "bg-[#8B4513] text-white"
+                      : "bg-[#e8dcc0] text-[#8B4513] hover:bg-[#d4c5a0]"
                       }`}
                   >
                     {section.label}
