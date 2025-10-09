@@ -36,8 +36,8 @@ export function ItemCard({
   return (
     <>
       <div
-        className="text-center cursor-pointer hover:opacity-80 transition-opacity"
-        onClick={() => setIsPopupOpen(true)}
+        className="text-center cursor-pointer transition-opacity"
+        onClick={() => description && setIsPopupOpen(true)}
       >
         <div className="mb-3">
           <Image
