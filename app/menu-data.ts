@@ -218,7 +218,6 @@ export const milkshakes = {
       title: "С МОРОЖЕНЫМ",
       sizes: [
         { size: "300мл", price: "210" },
-        { size: "400мл", price: "210" },
       ],
     },
     {
@@ -226,13 +225,11 @@ export const milkshakes = {
       icons: ["G", "N"],
       sizes: [
         { size: "300мл", price: "260" },
-        { size: "400мл", price: "260" },
       ],
     },
     {
       title: "ШОКОЛАДНЫЙ",
       sizes: [
-        { size: "300мл", price: "280" },
         { size: "400мл", price: "280" },
       ],
     },
