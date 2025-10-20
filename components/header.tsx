@@ -15,7 +15,7 @@ const sections = [
   { id: "breakfasts", label: "Завтраки" },
   { id: "lunches", label: "Обеды" },
   { id: "salads", label: "Салаты" },
-  { id: "dinner", label: "Ужин" },
+  { id: "dinner", label: "Паста" },
   { id: "desserts", label: "Десерты" },
 ]
 
