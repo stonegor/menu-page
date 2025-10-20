@@ -203,14 +203,14 @@ export const tea = {
       title: "ЧАЙ ЛИСТОВОЙ",
       subtitle: "чёрный классический / «Эрл Грей» зелёный классический / «Грин Жасмин»",
       sizes: [
-        { size: "300мл", price: "140" },
+        { size: "300мл", price: "" },
         { size: "400мл", price: "140" },
       ],
     },
     {
       title: "ЧАЙ ЛИСТОВОЙ «Молочный улун»",
       sizes: [
-        { size: "300мл", price: "160" },
+        { size: "300мл", price: "" },
         { size: "400мл", price: "160" },
       ],
     },
@@ -218,7 +218,7 @@ export const tea = {
       title: "ЧАЙ ЛИСТОВОЙ «ТАЙГА»",
       subtitle: "чёрный с травами",
       sizes: [
-        { size: "300мл", price: "160" },
+        { size: "300мл", price: "" },
         { size: "400мл", price: "160" },
       ],
     },
@@ -226,7 +226,7 @@ export const tea = {
       title: "НАПИТОК ТРАВЯНОЙ",
       subtitle: "«Мята перечная» / «Цветы ромашки»",
       sizes: [
-        { size: "300мл", price: "140" },
+        { size: "300мл", price: "" },
         { size: "400мл", price: "140" },
       ],
     },
@@ -234,13 +234,13 @@ export const tea = {
       title: "ЧАЙ ЧЁРНЫЙ «Марокканский»",
       sizes: [
         { size: "300мл", price: "200" },
-        { size: "400мл", price: "200" },
+        { size: "400мл", price: "" },
       ],
     },
     {
       title: "ЧАЙ ЧЁРНЫЙ «Вкус столицы»",
       sizes: [
-        { size: "300мл", price: "280" },
+        { size: "300мл", price: "" },
         { size: "400мл", price: "280" },
       ],
     },
@@ -269,7 +269,7 @@ export const tea = {
       icons: ["V", "G", "N"],
       sizes: [
         { size: "300мл", price: "280" },
-        { size: "400мл", price: "280" },
+        { size: "400мл", price: "" },
       ],
     },
   ],
@@ -330,6 +330,7 @@ export const milkshakes = {
     {
       title: "ШОКОЛАДНЫЙ",
       sizes: [
+        { size: "300мл", price: "" },
         { size: "400мл", price: "280" },
       ],
     },
