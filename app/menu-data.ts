@@ -1,16 +1,17 @@
 export const coffeeClassic = {
   title: "КоФейНаЯ КлАссИкА",
-  sizeHeaders: ["40мл", "300мл", "400мл", "500мл"],
+  sizeHeaders: ["40мл", "200мл", "300мл", "400мл", "500мл"],
   items: [
     {
       title: "ДВОЙНОЙ ЭСПРЕССО",
-      sizes: [{ size: "40мл", price: "180" }, { size: "300мл" }, { size: "400мл" }, { size: "500мл" }],
+      sizes: [{ size: "40мл", price: "180" }, { size: "200мл" }, { size: "300мл" }, { size: "400мл" }, { size: "500мл" }],
     },
     {
       title: "АМЕРИКАНО",
       icons: ["V", "L"],
       sizes: [
         { size: "40мл" },
+        { size: "200мл" },
         { size: "300мл", price: "200" },
         { size: "400мл", price: "230" },
         { size: "500мл" },
@@ -18,13 +19,20 @@ export const coffeeClassic = {
     },
     {
       title: "ФИЛЬТР-КОФЕ",
-      sizes: [{ size: "40мл" }, { size: "300мл", price: "260" }, { size: "400мл" }, { size: "500мл" }],
+      sizes: [
+        { size: "40мл" },
+        { size: "200мл", price: "220" },
+        { size: "300мл", price: "260" },
+        { size: "400мл" },
+        { size: "500мл" }
+      ],
     },
     {
       title: "КАПУЧИНО / ЛАТТЕ",
       icons: ["V", "L", "G", "N"],
       sizes: [
         { size: "40мл" },
+        { size: "200мл" },
         { size: "300мл", price: "240" },
         { size: "400мл", price: "280" },
         { size: "500мл", price: "300" },
@@ -35,6 +43,7 @@ export const coffeeClassic = {
       icons: ["N"],
       sizes: [
         { size: "40мл" },
+        { size: "200мл" },
         { size: "300мл", price: "260" },
         { size: "400мл", price: "300" },
         { size: "500мл" },
@@ -43,13 +52,20 @@ export const coffeeClassic = {
     {
       title: "МОККАЧИНО / ФЛЭТ УАЙТ",
       icons: ["G", "N"],
-      sizes: [{ size: "40мл" }, { size: "300мл", price: "240" }, { size: "400мл" }, { size: "500мл" }],
+      sizes: [
+        { size: "40мл" },
+        { size: "200мл" },
+        { size: "300мл", price: "240" },
+        { size: "400мл" },
+        { size: "500мл" }
+      ],
     },
     {
       title: "КАКАО классическое",
       icons: ["G", "N"],
       sizes: [
         { size: "40мл" },
+        { size: "200мл" },
         { size: "300мл", price: "200" },
         { size: "400мл", price: "260" },
         { size: "500мл" },
@@ -61,6 +77,7 @@ export const coffeeClassic = {
       subtitle: "классический /лавандовый / «Солёная карамель» / фисташковый / апельсиновый",
       sizes: [
         { size: "40мл" },
+        { size: "200мл" },
         { size: "300мл", price: "320" },
         { size: "400мл", price: "360" },
         { size: "500мл" },
@@ -71,6 +88,7 @@ export const coffeeClassic = {
       icons: ["G"],
       sizes: [
         { size: "40мл" },
+        { size: "200мл" },
         { size: "300мл", price: "340" },
         { size: "400мл", price: "380" },
         { size: "500мл" },
@@ -95,17 +113,37 @@ export const coffeeDecaf = {
   filterItems: [{ title: "ЧЁРНЫЙ КОФЕ (декаф)", price: "160", volume: "300 мл" }],
 }
 
+export const icedCoffee = {
+  title: "ХОЛОДНЫЙ КОФЕ",
+  sizeHeaders: ["300мл", "400мл", "500мл"],
+  items: [
+    {
+      title: "АЙС АМЕРИКАНО",
+      icons: ["V", "L"],
+      sizes: [
+        { size: "300мл", price: "200" },
+        { size: "400мл", price: "230" },
+        { size: "500мл" },
+      ],
+    },
+    {
+      title: "АЙС КАПУЧИНО / АЙС ЛАТТЕ",
+      icons: ["V", "L", "G", "N"],
+      sizes: [
+        { size: "300мл", price: "240" },
+        { size: "400мл", price: "280" },
+        { size: "500мл", price: "300" },
+      ],
+    },
+  ],
+}
+
 export const coffeeDrinks = {
   title: "КОфейНыЕ НАпИткИ",
   sizeHeaders: ["300 мл", "400 мл"],
   items: [
     {
-      title: "ЭСПРЕССО-ТОНИК классический",
-      icons: ["L"],
-      sizes: [{ size: "300мл", price: "260" }, { size: "400мл" }],
-    },
-    {
-      title: "ДЖУС-КОФЕ",
+      title: "ДЖУС-КОФЕ на апельсиновом фреше",
       icons: ["V", "L"],
       sizes: [{ size: "300мл" }, { size: "400мл", price: "380" }],
     },
@@ -125,10 +163,11 @@ export const coffeeDrinks = {
 export const authorCoffee = {
   title: "АВТОРСКИЕ КОФЕЙНЫЕ НАПИТКИ",
   items: [
+    { title: "ЭСПРЕССО-ТОНИК классический", weight: "500 мл", price: "260" },
+    { title: "ЭССПРЕССО-ТОНИК «Грейпфрут-Лаванда»", weight: "500 мл", price: "380" },
     { title: "АЙС-КОФЕ «Фраппучино с карамелью»", weight: "400 мл", price: "300" },
     { title: "АЙС-КОФЕ «КОЛА»", weight: "400 мл", price: "280" },
     { title: "АЙС-КОФЕ «ХАЛВА» / «АРАХИС»", weight: "400 мл", price: "300" },
-    { title: "ЭССПРЕССО-ТОНИК «Грейпфрут-Лаванда»", weight: "400 мл", price: "380" },
     { title: "КОФЕ ГЛЯСЕ с фисташковой крошкой", weight: "400 мл", price: "340" },
   ],
 }
@@ -176,6 +215,22 @@ export const tea = {
       ],
     },
     {
+      title: "ЧАЙ ЛИСТОВОЙ «ТАЙГА»",
+      subtitle: "чёрный с травами",
+      sizes: [
+        { size: "300мл", price: "160" },
+        { size: "400мл", price: "160" },
+      ],
+    },
+    {
+      title: "НАПИТОК ТРАВЯНОЙ",
+      subtitle: "«Мята перечная» / «Цветы ромашки»",
+      sizes: [
+        { size: "300мл", price: "140" },
+        { size: "400мл", price: "140" },
+      ],
+    },
+    {
       title: "ЧАЙ ЧЁРНЫЙ «Марокканский»",
       sizes: [
         { size: "300мл", price: "200" },
@@ -200,11 +255,56 @@ export const tea = {
       sizes: [{ size: "300мл", price: "340" }, { size: "400мл" }],
     },
     {
+      title: "АЙС-МАТЧА",
+      icons: ["V", "L", "G", "N"],
+      sizes: [{ size: "300мл", price: "200" }, { size: "400мл" }],
+    },
+    {
+      title: "АЙС-МАТЧА розовая «Таро-пинк»",
+      icons: ["V", "L", "G", "N"],
+      sizes: [{ size: "300мл", price: "340" }, { size: "400мл" }],
+    },
+    {
       title: "АЙС-МАТЧА с клубникой",
       icons: ["V", "G", "N"],
       sizes: [
         { size: "300мл", price: "280" },
         { size: "400мл", price: "280" },
+      ],
+    },
+  ],
+}
+
+export const freshJuices = {
+  title: "СОКИ ПРЯМОГО ОТЖИМА",
+  sizeHeaders: ["300мл", "500мл"],
+  items: [
+    {
+      title: "АПЕЛЬСИНОВЫЙ",
+      sizes: [
+        { size: "300мл", price: "290" },
+        { size: "500мл", price: "400" },
+      ],
+    },
+    {
+      title: "ГРЕЙПФРУТОВЫЙ",
+      sizes: [
+        { size: "300мл", price: "310" },
+        { size: "500мл", price: "430" },
+      ],
+    },
+    {
+      title: "МОРКОВНЫЙ",
+      sizes: [
+        { size: "300мл", price: "260" },
+        { size: "500мл", price: "360" },
+      ],
+    },
+    {
+      title: "ЯБЛОЧНЫЙ",
+      sizes: [
+        { size: "300мл", price: "260" },
+        { size: "500мл", price: "410" },
       ],
     },
   ],
@@ -396,7 +496,6 @@ export const pancakes = {
     },
   ],
 }
-
 
 
 export const breakfasts = {
