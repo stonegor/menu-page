@@ -53,6 +53,7 @@ export default function RootLayout({
         className={`font-sans ${villula.variable} ${euclidRegular.variable} ${euclidBold.variable} ${euclidSemibold.variable}`}
       >
         <Suspense fallback={null}>
+          <Header />
           <Script
             id="yandex-metrika"
             strategy="afterInteractive"
