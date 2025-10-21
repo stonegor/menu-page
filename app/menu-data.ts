@@ -1207,7 +1207,7 @@ export const desserts = {
 }
 
 export const dinner = {
-  title: "Паста",
+  title: "Ужин",
   items: [
     {
       title: "Спагетти \"Карбонара\"",
