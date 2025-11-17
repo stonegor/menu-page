@@ -846,7 +846,7 @@ export const dumplings = {
 
 
 export const sandwiches = {
-  title: "Сендвичи",
+  title: "Сэндвичи",
   items: [
     {
       title: "Сэндвич с растительной котлетой свежими овощами с азиатским соусом (Ляпун в белом )",
