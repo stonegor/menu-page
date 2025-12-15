@@ -11,11 +11,8 @@ const sections = [
   { id: "author-coffee", label: "Авторские кофейные напитки" },
   { id: "author-lemonades", label: "Авторские лимонады" },
   { id: "pancakes", label: "Блины" },
-  { id: "sandwiches", label: "Сэндвичи" },
   { id: "breakfasts", label: "Завтраки" },
   { id: "lunches", label: "Обеды" },
-  { id: "salads", label: "Салаты" },
-  { id: "dinner", label: "Паста" },
   //{ id: "desserts", label: "Десерты" },
 ]
 
