@@ -16,7 +16,7 @@ const sections = [
   { id: "lunches", label: "Обеды" },
   { id: "salads", label: "Салаты" },
   { id: "dinner", label: "Паста" },
-  { id: "desserts", label: "Десерты" },
+  //{ id: "desserts", label: "Десерты" },
 ]
 
 export function Header() {

@@ -10,7 +10,6 @@ import {
   coffeeDecaf,
   coffeeDrinks,
   authorCoffee,
-  authorLemonades,
   additionalOptions1,
   tea,
   milkshakes,
@@ -124,52 +123,7 @@ export default function MenuPage() {
               </MenuSection>
             </div>
 
-            <div id="author-lemonades">
-              <MenuSection title={authorLemonades.title}>
-                {(() => {
-                  const itemsWithImages = authorLemonades.items.filter(item => item.image_url)
-                  const itemsWithoutImages = authorLemonades.items.filter(item => !item.image_url)
-                  return (
-                    <>
-                      {itemsWithImages.length > 0 && (
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                          {itemsWithImages.map((item, index) => (
-                            <ItemCard
-                              key={index}
-                              imageSrc={item.image_url!}
-                              imageAlt={item.title}
-                              title={item.title}
-                              weight={item.weight}
-                              price={item.price}
-                              description={item.description}
-                              composition={item.composition}
-                              nutrition={item.nutrition}
-                            />
-                          ))}
-                        </div>
-                      )}
-                      {itemsWithoutImages.length > 0 && (
-                        <div className={`space-y-4 ${itemsWithImages.length > 0 ? "mt-8" : ""}`}>
-                          {itemsWithoutImages.map((item, index) => (
-                            <ItemRow
-                              key={index}
-                              imageSrc={item.image_url || ""}
-                              imageAlt={item.title}
-                              title={item.title}
-                              weight={item.weight}
-                              price={item.price}
-                              description={item.description}
-                              composition={item.composition}
-                              nutrition={item.nutrition}
-                            />
-                          ))}
-                        </div>
-                      )}
-                    </>
-                  )
-                })()}
-              </MenuSection>
-            </div>
+
 
             <AdditionalOptions options={additionalOptions1.options} freeSyrups={additionalOptions1.freeSyrups} />
 
@@ -464,7 +418,7 @@ export default function MenuPage() {
               })()}
             </MenuSection>
           </div>
-
+          {/*
           <div id="desserts">
             <MenuSection title={desserts.title}>
               {(() => {
@@ -509,6 +463,7 @@ export default function MenuPage() {
               })()}
             </MenuSection>
           </div>
+          */}
 
 
         </div>
