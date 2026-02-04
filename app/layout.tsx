@@ -54,7 +54,13 @@ export default function RootLayout({
         <Suspense fallback={null}>
           <YandexMetrika />
         </Suspense>
-        {children}
+        <div className="min-h-screen bg-[#f5f1e8] flex items-center justify-center p-4">
+          <div className="text-center">
+            <h1 className="text-xl md:text-2xl font-bold">
+              Цифровая версия меню временно отключена
+            </h1>
+          </div>
+        </div>
       </body>
     </html>
   )
